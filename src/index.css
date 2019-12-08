@@ -1,0 +1,282 @@
+/* Estilos para barrar de navegacion */
+/* 
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+ *//* .reducir{
+  margin: 15rem ;
+ } */
+ .cardProyecto{
+width: 20rem;
+ }
+ .btn-git{
+   background-color: black!important;
+   color: white!important;
+ }
+ .body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+ .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+ .galeriacont{
+display: flex;
+ }
+ .galeria{
+flex: 1;
+margin: 1rem;
+ }
+ .cont-p2{
+   flex: 1;
+ }
+ body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #FBC02D!important;
+ }
+ h2{
+   text-align: center;
+   text-transform: uppercase;
+   margin: 2rem!important;
+   color: #0191FF;
+   font-weight: bold;
+   padding-top: 1rem;
+
+ }
+ .especial{
+   color: gray;
+ }
+ body{
+   background-image: url(./assets/img/webdesingportafolio.svg);
+   height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top center;
+ }
+ .card-supreme{
+   background-color: #ffffff;
+   -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+border-radius: 5px;
+ }
+p{
+  line-height: 2;
+}
+
+ h1,h2,h3,h4,h5,h6,p{
+   
+font-family: 'Alatsi', sans-serif;
+ }
+.linkActivo{
+  color: black!important;
+}
+img{
+  max-width: 100%;
+}
+
+.navbar{
+
+  -webkit-box-shadow: 1px 4px 12px -6px rgba(0,0,0,1);
+-moz-box-shadow: 1px 4px 12px -6px rgba(0,0,0,1);
+box-shadow: 1px 4px 12px -6px rgba(0,0,0,1);
+
+
+}
+h2::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: url(./assets//img/angle-down-solid-1@2x.png);
+  
+  display: block;
+
+ 
+}body { margin: 0; }
+canvas { width: 100%; height: 100% }
+.navbar-expand-lg{
+  justify-content: space-between!important;
+}
+.redes a{
+  margin: 0 1rem;
+}
+.nav-item a{
+color: #646464!important;font-weight: bold;
+}
+/* estilso header */
+
+.jesus{
+  width: 400px;
+}
+.btn-p{
+  margin-left: 10px;
+  color: #0191FF;
+}
+
+.soy{
+  text-align: center;
+}
+.btn-p{
+  -webkit-box-shadow: 5px 12px 8px -12px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 12px 8px -12px rgba(0,0,0,0.5);
+  box-shadow: 5px 12px 8px -12px rgba(0,0,0,0.5);
+}
+.fa-user{
+  color: black;
+}
+.jesus{
+margin: 1rem;
+  border-radius: 5px;
+/*  border: 4px solid rgb(136, 136, 136); */
+ -webkit-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.75);
+ -moz-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.75);
+ box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.75);
+}
+
+/*pc*/
+@media only screen and (min-width: 768px){
+
+.frases{
+width: 300px!important;
+}
+  .contenedorFlex{
+    display: flex!important;
+    flex-direction: row;
+  }
+  .hola{
+    color: rgb(41, 40, 40);
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  .yo{
+    color: rgb(34, 33, 33);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .profesion{
+    font-weight: bold;
+    color: black;
+    font-size: 3rem;
+  
+    
+  }
+  .pro{
+    color:white;
+  }
+
+.contPresentacion{
+flex: 1;
+  max-width: 100%;
+  text-align: center;
+  padding-top: 4rem;
+
+}
+.logo{
+  height: 40px;
+  width: 60px;
+}
+.contenedorImg{
+  width: 30%;
+}
+.contImg1{
+  flex: 2;
+  text-align: center;
+
+
+}
+.contP{
+  flex: 2;
+}
+.contImg1 img{
+  width: 300px;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+  .card-supreme{
+    margin: 2rem;
+  }
+
+  .habilidadesDes{
+    flex-direction: column!important;
+    margin: 2rem 0;
+  }
+  .logo{
+    height: 40px;
+    width: 50px;
+  }
+
+.links{
+  line-height: 5;
+}
+.navbar-light .navbar-toggler{
+  border-color:#ffffff;
+  color: black;
+}
+.redes a{
+ 
+
+  color: black!important;
+
+}
+.especial{
+  color: gray;
+}
+.redes{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.contenedorImg{
+  text-align: center;
+}
+.contPresentacion{
+  text-align: center;
+  
+}
+.pro{
+  color:#0191ff;
+}
+.boton{
+  margin-top: -0.3rem!important;
+}
+.jesus{
+  margin-top: 1rem;  width: 30vh;
+}
+.galeriacont{
+  display: flex;
+  flex-direction: column;
+   }
+   .galeria{
+ margin-bottom: 3rem;
+   }
+   .cont-p2{
+     flex: 1;
+   }
+}
